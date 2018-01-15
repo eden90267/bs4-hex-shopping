@@ -35,3 +35,11 @@
 .box-shadow:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, .24);
 }
+
+.btn.disabled {
+  pointer-events: none;
+}
+
+.alert-rounded {
+  border-radius: 50px;
+}
